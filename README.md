@@ -9,7 +9,7 @@ Djangoのミドルウェア・デコレータによるIPアドレス制限のサ
 ２．gitでプロジェクトをダウンロードする
 
 ```
-git clone https://github.com/okoppe8/django-datatables-view-sample.git
+git clone https://github.com/okoppe8/django-ip-restrict-example.git
 ```
 
 ※ gitがない場合は左上の「Clone or Download」→ 「Download ZIP」でもOK
@@ -19,7 +19,7 @@ git clone https://github.com/okoppe8/django-datatables-view-sample.git
 windows
 
 ```
-cd django-datatables-view-sample
+cd django-ip-restrict-example
 python -m venv env
 env\Scripts\activate
 pip install -r requirements.txt
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 MacOS/Linux
 
 ```
-cd django-datatables-view-sample
+cd django-ip-restrict-example
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
